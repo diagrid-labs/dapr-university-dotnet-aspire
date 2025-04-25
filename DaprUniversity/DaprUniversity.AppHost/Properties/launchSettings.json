@@ -1,29 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "profiles": {
-    "http": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "applicationUrl": "http://*:15019",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "DOTNET_ENVIRONMENT": "Development",
-        "DOTNET_DASHBOARD_OTLP_ENDPOINT_URL": "http://localhost:19094",
-        "DOTNET_RESOURCE_SERVICE_ENDPOINT_URL": "http://localhost:20116",
-        "ASPIRE_ALLOW_UNSECURED_TRANSPORT": "true"
-      }
-    },
     "https": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:17212;http://localhost:15019",
+      "applicationUrl": "https://*:8443",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "DOTNET_ENVIRONMENT": "Development",
-        "DOTNET_DASHBOARD_OTLP_ENDPOINT_URL": "https://localhost:21046",
-        "DOTNET_RESOURCE_SERVICE_ENDPOINT_URL": "https://localhost:22136"
+        "DOTNET_DASHBOARD_OTLP_ENDPOINT_URL": "https://localhost:9443",
+        "DOTNET_RESOURCE_SERVICE_ENDPOINT_URL": "https://localhost:10443",
+        "ASPIRE_DASHBOARD_FRONTEND_BROWSERTOKEN": "dapruniversity"
       }
     }
   }
