@@ -1,0 +1,1 @@
+dotnet run --project DaprUniversity/DaprUniversity.AppHost/DaprUniversity.AppHost.csproj --launch-profile http
